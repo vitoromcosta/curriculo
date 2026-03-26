@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Vitor Machado da Costa</title>
+    <!-- Utilização do Tailwind CSS para um design responsivo e moderno -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f1f5f9;
+        }
+        /* Estilos específicos para a impressão em PDF */
+        @media print {
+            body { background-color: white; }
+            .no-print { display: none; }
+            .print-shadow { box-shadow: none !important; }
+            .page-break { page-break-before: always; }
+        }
+        .section-title {
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 4px;
+            margin-bottom: 16px;
+            color: #1e293b;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-10">
+
+    <div class="max-w-4xl mx-auto bg-white shadow-2xl print-shadow rounded-lg overflow-hidden border border-slate-200">
+        <!-- Cabeçalho Principal -->
+        <header class="bg-slate-800 text-white p-8">
+            <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+                <div>
+                    <h1 class="text-4xl font-bold tracking-tight">VITOR MACHADO DA COSTA</h1>
+                    <p class="text-blue-400 font-medium mt-2 text-lg">Analista de Customer Success | Scrum Master | Gerente de Projetos</p>
+                </div>
+                <div class="mt-6 md:mt-0 text-sm space-y-2 text-slate-300">
+                    <div class="flex items-center justify-center md:justify-end gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        (61) 99655-2371
+                    </div>
+                    <div class="flex items-center justify-center md:justify-end gap-2 text-blue-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        vitoromcosta@gmail.com
+                    </div>
+                    <div class="flex items-center justify-center md:justify-end gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        Brasília - DF
+                    </div>
+                    <div class="flex items-center justify-center md:justify-end gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        linkedin.com/in/vitor-machado-costa
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-0">
+            <!-- Barra Lateral de Informações -->
+            <aside class="bg-slate-50 p-8 border-r border-slate-200 order-2 md:order-1">
+                
+                <!-- Secção de Hard Skills Melhorada -->
+                <section class="mb-10">
+                    <h3 class="section-title text-sm">Competências Técnicas</h3>
+                    <div class="space-y-6">
+                        <div>
+                            <p class="font-bold text-slate-700 text-[10px] uppercase mb-2 tracking-wider">Agilidade & Gestão</p>
+                            <div class="flex flex-wrap gap-1.5 text-[11px] text-slate-700">
+                                <span class="bg-blue-100 border border-blue-200 px-2 py-0.5 rounded-md font-medium">Scrum Master</span>
+                                <span class="bg-blue-100 border border-blue-200 px-2 py-0.5 rounded-md font-medium">Framework Kanban</span>
+                                <span class="bg-blue-100 border border-blue-200 px-2 py-0.5 rounded-md font-medium">Lean IT</span>
+                                <span class="bg-blue-100 border border-blue-200 px-2 py-0.5 rounded-md font-medium">Análise de Requisitos</span>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-bold text-slate-700 text-[10px] uppercase mb-2 tracking-wider">Monitorização & Infra</p>
+                            <div class="flex flex-wrap gap-1.5 text-[11px] text-slate-700">
+                                <span class="bg-green-100 border border-green-200 px-2 py-0.5 rounded-md font-medium">Zabbix Specialist</span>
+                                <span class="bg-green-100 border border-green-200 px-2 py-0.5 rounded-md font-medium">Grafana Dashboards</span>
+                                <span class="bg-green-100 border border-green-200 px-2 py-0.5 rounded-md font-medium">ITIL Foundation</span>
+                                <span class="bg-green-100 border border-green-200 px-2 py-0.5 rounded-md font-medium">Gestão de SLA/SLO</span>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-bold text-slate-700 text-[10px] uppercase mb-2 tracking-wider">Customer Success</p>
+                            <div class="flex flex-wrap gap-1.5 text-[11px] text-slate-700">
+                                <span class="bg-amber-100 border border-amber-200 px-2 py-0.5 rounded-md font-medium">Gestão de Stakeholders</span>
+                                <span class="bg-amber-100 border border-amber-200 px-2 py-0.5 rounded-md font-medium">NPS & Churn Control</span>
+                                <span class="bg-amber-100 border border-amber-200 px-2 py-0.5 rounded-md font-medium">Entrega de Valor</span>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-bold text-slate-700 text-[10px] uppercase mb-2 tracking-wider">Ecossistema de Ferramentas</p>
+                            <div class="flex flex-wrap gap-1.5 text-[11px] text-slate-700">
+                                <span class="bg-slate-200 border border-slate-300 px-2 py-0.5 rounded-md font-bold text-slate-800">Jira Software</span>
+                                <span class="bg-slate-200 border border-slate-300 px-2 py-0.5 rounded-md font-bold text-slate-800">ServiceNow</span>
+                                <span class="bg-slate-200 border border-slate-300 px-2 py-0.5 rounded-md font-bold text-slate-800">Monday.com</span>
+                                <span class="bg-slate-200 border border-slate-300 px-2 py-0.5 rounded-md font-bold text-slate-800">MS Teams/Slack</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="mb-10">
+                    <h3 class="section-title text-sm">Soft Skills</h3>
+                    <ul class="text-sm text-slate-600 space-y-2.5">
+                        <li class="flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
+                            Liderança Servidora
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
+                            Comunicação Executiva
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
+                            Adaptabilidade em Ambientes Ágeis
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
+                            Foco na Resolução de Problemas
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="mb-10">
+                    <h3 class="section-title text-sm">Educação</h3>
+                    <div class="text-sm">
+                        <p class="font-bold text-slate-800">Bacharelado em Sistemas de Informação</p>
+                        <p class="text-slate-500 italic mb-1">Faculdade Anhanguera</p>
+                        <p class="text-blue-600 font-semibold inline-block bg-blue-50 px-2 py-0.5 rounded text-xs">8º Semestre (Em curso)</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h3 class="section-title text-sm">Idiomas</h3>
+                    <div class="text-sm space-y-2">
+                        <div class="flex flex-col">
+                            <span class="text-slate-600 text-xs">Português</span>
+                            <span class="font-bold text-slate-800">Nativo</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-slate-600 text-xs">Inglês</span>
+                            <span class="font-bold text-slate-800">Intermédio</span>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+
+            <!-- Conteúdo Principal -->
+            <main class="md:col-span-2 p-8 order-1 md:order-2 bg-white">
+                
+                <!-- Resumo Profissional em 1ª Pessoa -->
+                <section class="mb-10">
+                    <h3 class="section-title text-blue-800">Sobre Mim</h3>
+                    <div class="relative">
+                        <div class="absolute -left-4 top-0 bottom-0 w-1 bg-blue-500 rounded"></div>
+                        <p class="text-slate-600 leading-relaxed text-sm italic pl-4">
+                            "Sou um profissional de TI focado em unir análise de dados, metodologias ágeis e o sucesso do cliente. Com sólida experiência na monitorização de ambientes críticos e gestão estratégica de projetos, utilizo um olhar analítico apurado para identificar melhorias e antecipar gargalos. Como Scrum Master, foco na melhoria contínua e na facilitação da colaboração em equipa para aumentar a eficiência dos processos. A minha paixão é transformar métricas técnicas complexas em narrativas visuais claras, garantindo que cada solução entregue o máximo valor estratégico para os stakeholders e para o negócio."
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Experiência Profissional -->
+                <section>
+                    <h3 class="section-title text-blue-800">Experiência Profissional</h3>
+                    
+                    <div class="space-y-8">
+                        <!-- Cargo 1 -->
+                        <div class="relative pl-6 border-l-2 border-slate-200">
+                            <div class="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-1 border-4 border-white shadow-sm"></div>
+                            <div class="flex flex-col sm:flex-row justify-between items-start mb-2">
+                                <div>
+                                    <h4 class="font-bold text-slate-800 uppercase text-md">Gerente de Projetos</h4>
+                                    <p class="text-sm font-semibold text-blue-600">Stefanini IT Solutions</p>
+                                </div>
+                                <span class="text-[10px] font-bold text-white bg-slate-700 px-3 py-1 rounded-full uppercase tracking-tighter mt-2 sm:mt-0">Nov/2025 – Presente</span>
+                            </div>
+                            <ul class="text-sm text-slate-600 list-disc ml-4 space-y-1.5">
+                                <li>Liderança e execução de projetos tecnológicos com foco em cumprimento de prazos e standards de qualidade.</li>
+                                <li>Gestão estratégica de stakeholders, assegurando uma comunicação fluida e alinhamento de expectativas em todos os níveis.</li>
+                                <li>Aplicação de práticas ágeis para adaptação rápida a mudanças de escopo e remoção de impedimentos críticos.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Cargo 2 -->
+                        <div class="relative pl-6 border-l-2 border-slate-200">
+                            <div class="absolute w-4 h-4 bg-slate-400 rounded-full -left-[9px] top-1 border-4 border-white shadow-sm"></div>
+                            <div class="flex flex-col sm:flex-row justify-between items-start mb-2">
+                                <div>
+                                    <h4 class="font-bold text-slate-800 uppercase text-md">Analista de Sustentação Zabbix</h4>
+                                    <p class="text-sm font-semibold text-blue-600">Stefanini IT Solutions</p>
+                                </div>
+                                <span class="text-[10px] font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-full uppercase tracking-tighter mt-2 sm:mt-0">Jul/2024 – Nov/2025</span>
+                            </div>
+                            <ul class="text-sm text-slate-600 list-disc ml-4 space-y-1.5">
+                                <li>Implementação e configuração avançada de Zabbix e Grafana para monitorização de infraestruturas críticas.</li>
+                                <li>Desenvolvimento de dashboards customizados para visualização de métricas de negócio e indicadores técnicos (KPIs).</li>
+                                <li>Gestão de incidentes e integração de alertas automáticos via Slack e Microsoft Teams.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Cargo 3 -->
+                        <div class="relative pl-6 border-l-2 border-slate-200">
+                            <div class="absolute w-4 h-4 bg-slate-400 rounded-full -left-[9px] top-1 border-4 border-white shadow-sm"></div>
+                            <div class="flex flex-col sm:flex-row justify-between items-start mb-2">
+                                <div>
+                                    <h4 class="font-bold text-slate-800 uppercase text-md">Analista de Monitorização Jr</h4>
+                                    <p class="text-sm font-semibold text-blue-600">Stefanini IT Solutions</p>
+                                </div>
+                                <span class="text-[10px] font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-full uppercase tracking-tighter mt-2 sm:mt-0">Set/2023 – Jul/2024</span>
+                            </div>
+                            <ul class="text-sm text-slate-600 list-disc ml-4 space-y-1.5">
+                                <li>Monitorização proativa de infraestrutura de TI garantindo alta disponibilidade e performance.</li>
+                                <li>Gestão integral do ciclo de vida de incidentes através de sistemas de ticketing (ITSM).</li>
+                                <li>Suporte na garantia de estabilidade de links de internet e rede corporativa.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- Botão de Impressão e Instruções (Não aparece no PDF final) -->
+    <div class="max-w-4xl mx-auto mt-8 mb-10 text-center no-print">
+        <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-bold transition shadow-xl hover:scale-105 active:scale-95 transform">
+            <span class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+                Imprimir ou Guardar como PDF
+            </span>
+        </button>
+        <p class="text-slate-500 text-xs mt-4">
+            Dica: No menu de impressão, selecione "Salvar como PDF".<br>
+            Certifique-se de que a opção "Gráficos de segundo plano" está ativa para manter as cores.
+        </p>
+    </div>
+
+</body>
+</html>
